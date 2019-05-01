@@ -29,6 +29,6 @@ management:
     health:
       enabled: true
          
-template:
-  param:
-    message: Hello from Kubernetes Configmap111.
+# template:
+#   param:
+#     message: Hello from Kubernetes Configmap111.
