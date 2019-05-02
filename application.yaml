@@ -1,24 +1,24 @@
-spring:
-  output:
-    ansi:
-      enabled: ALWAYS
-  datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: root
-    hikari:
-      idle-timeout: 10000
-      jdbc-url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UC"
-    url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UC"
+# spring:
+#   output:
+#     ansi:
+#       enabled: ALWAYS
+#   datasource:
+#     type: com.zaxxer.hikari.HikariDataSource
+#     driver-class-name: com.mysql.jdbc.Driver
+#     username: root
+#     password: root
+#     hikari:
+#       idle-timeout: 10000
+#       jdbc-url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UTC"
+#     url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UTC"
       
-logging:
-  file: "log/app.log"
-  level:
-    root: DEBUG
-    org.springframework: DEBUG
-    com.risesmart.template: DEBUG
-    org.hibernate: DEBUG  
+# logging:
+#   file: "log/app.log"
+#   level:
+#     root: DEBUG
+#     org.springframework: DEBUG
+#     com.risesmart.template: DEBUG
+#     org.hibernate: DEBUG  
     
 management:
   endpoint:
