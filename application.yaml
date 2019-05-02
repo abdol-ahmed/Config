@@ -9,8 +9,8 @@ spring:
     password: root
     hikari:
       idle-timeout: 10000
-      jdbc-url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UTC"
-    url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UTC"
+      jdbc-url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UC"
+    url: "jdbc:mysql://10.0.2.2:3306/event_service?useSSL=false&serverTimezone=UC"
       
 logging:
   file: "log/app.log"
